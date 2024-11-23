@@ -16,7 +16,7 @@ const Header = () => {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-3">
           <Link href={'/'} className="self-center text-xl lg:text-2xl font-bold whitespace-nowrap">Toytopia</Link>
           <div className="flex items-center lg:order-2">
-            <Link href={'/'} className="text-white bg-gray-800 font-semibold rounded-full text-sm px-5 py-2.5 me-2 hover:bg-gray-100 hover:text-black">Login</Link>
+            <Link href={'/login'} className="text-white bg-gray-800 font-semibold rounded-full text-sm px-5 py-2.5 me-2 hover:bg-gray-100 hover:text-black">Login</Link>
             <button
               onClick={toggleMenu}
               type="button"

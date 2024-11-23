@@ -1,6 +1,6 @@
 // import localFont from "next/font/local";
 import "./globals.css";
-import {Poppins} from "@next/font/google"
+import {Poppins} from "next/font/google"
 
 const poppins = Poppins({
   weight: ["200", "400", "700", "900"]
