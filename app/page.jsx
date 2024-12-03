@@ -9,7 +9,6 @@ const page = () => {
     <Header />
     <Hero />
     <Footer />
-    
     </>
     
   )
